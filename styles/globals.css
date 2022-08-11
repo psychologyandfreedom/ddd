@@ -15,12 +15,38 @@ a {
   box-sizing: border-box;
 }
 
+/* project cards */
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
   body {
     color: white;
-    background: black;
+    background: rgb(190, 189, 189);
   }
+}
+
+
+
+/* calculator */
+
+
+.calculations-input{
+  max-height: 75%; 
+}
+
+
+/* home page: introduction section */
+
+.introduction-paragraph{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+ justify-content: center;
+ margin-top: 5%;
 }
